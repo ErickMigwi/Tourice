@@ -1,0 +1,54 @@
+#mainHome{
+    background-color:#391F14;
+    height: 89vh;
+}
+#homeview{
+    width: 100%;
+    height: 89vh;
+    display: flex;
+}
+#homeviewImg{
+    width: 60%;
+    height: 89vh;
+}
+#homeviewImg img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+    height: 88.3vh;
+}
+#homeViewDetails{
+    width: 40%;
+    height: 89vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    gap: 10px;
+}
+#homeMsg{
+    font-size: 5.5rem;
+    width: 700px;
+    font-family: 'Cormorant Garamond', serif;
+    z-index: 1;
+    color:white;
+    
+}
+#discovermsg{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.4rem;
+    
+    color: white;
+    width:400px;
+}
+#viewDest{
+    background-color:#A45332 ;
+    font-size: 1.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 300px;
+    padding: 20px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    border-radius: 15px;
+}

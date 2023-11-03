@@ -1,0 +1,58 @@
+#addMoreImages{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 92.5vh;
+    background-color: whitesmoke;
+    gap: 3%;
+  }
+  #mainmultImgDiv{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  #multImgDiv p{
+    font-size: 0.7rem;
+    font-style: italic;
+  }
+  #multImgDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+  }
+  #multImg{
+    font-size: 1rem;
+    width: 30vw;
+    border-radius: 20px;
+    background-color: white;
+    border: 2px solid rgb(4, 57, 39);
+    padding: 10px;
+  }
+  #multImgBtn{
+    background-color: rgb(4, 57, 39);
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+  }
+  #mainmultImgDiv{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  #multImgBtnSkip{
+    padding: 15px;
+    font-size: 1.2rem;
+    background-color: royalblue;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    width: 10vw;
+  }

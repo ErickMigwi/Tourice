@@ -1,0 +1,52 @@
+#mainSignup{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 89vh;
+}
+#setToAlign{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: auto;
+    width: 100%;
+    align-items: center;
+}
+#setToAlign p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.8rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#setToAlign input{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    background-color: rgb(225, 222, 222);
+    height: 7vh;
+    border: none;
+    border-radius: 15px;
+    padding: 5px;
+}
+#setToAlign button{
+    background-color:#A85432 ;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 200px;
+    border-radius: 15px;
+    font-size: 1.1rem;
+    margin-bottom: 5vh;
+}
+textarea{
+    width: 30%;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 1.1rem;
+
+}
+.reactSelect{
+    width: 30%;
+}

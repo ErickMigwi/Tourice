@@ -1,0 +1,47 @@
+#mainNav{
+    background-color: #3A1E13;
+    width: 100%;
+    height: 11vh;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav1{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav1 p{
+    font-size: 1.8rem;
+    color:#D1CBC8;
+    font-family: 'Lora', serif;
+}
+#nav2{
+    justify-content: end;
+    width: 50%;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+#nav2 p{
+color:#D1CBC8;
+font-size: 1.4rem;
+font-family: 'Josefin Sans', sans-serif;
+}
+#nav2 button{
+    background-color: #A85432;
+    font-size: 1.1rem;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+}
+#nav2 p:hover{
+    text-decoration: underline 2px solid rgb(253, 143, 95);
+    color:rgb(253, 143, 95);
+    cursor: pointer;
+    
+}
+
